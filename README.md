@@ -16,7 +16,7 @@ Create a .env file with your project's read-only api token.
 
 Then run
 
-`yarn && yarn start`
+`npm i && npm start`
 
 ### Setting up Apollo Client
 
