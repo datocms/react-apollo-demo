@@ -9,6 +9,7 @@
     "graphql": "^14.4.2",
     "graphql-tag": "^2.10.1",
     "node-sass": "^4.12.0",
+    "npm-force-resolutions": "^0.0.10",
     "qs": "^6.7.0",
     "react": "^16.8.6",
     "react-apollo": "^2.5.8",
@@ -18,7 +19,17 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "^3.4.4"
   },
+  "resolutions": {
+    "browserslist": "4.16.6",
+    "glob-parent": "5.1.2",
+    "immer": "8.0.1",
+    "postcss": "7.0.36",
+    "trim": "0.0.3",
+    "trim-newlines": "3.0.1",
+    "ansi-styles": "3.2.0"
+  },
   "scripts": {
+    "preinstall": "npx npm-force-resolutions",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "lint": "standard --fix"
@@ -37,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "browserslist": "^4.16.6"
   }
 }
