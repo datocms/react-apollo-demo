@@ -1,3 +1,5 @@
+⛔️DEPRECATED⛔️
+
 # DatoCMS example blog using React & Apollo
 
 ## Set up your own
