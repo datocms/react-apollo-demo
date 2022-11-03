@@ -1,4 +1,4 @@
-⛔️DEPRECATED⛔️
+# ⛔️ DEPRECATED ⛔️
 
 # DatoCMS example blog using React & Apollo
 
